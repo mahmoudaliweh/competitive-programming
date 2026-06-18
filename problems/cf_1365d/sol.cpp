@@ -13,60 +13,74 @@ void setup_io() {
 }
 
 const int N = 52;
-int longestPath;
-int n, m;
 char grid[N][N];
 bool visited[N][N];
-vector<pair<int, int> > roots;
+int n, m;
+int nGood;
+int canEscape;
+
 
 vector<pair<int, int> > getCells(int i, int j) {
     vector<pair<int, int> > cells;
 
-    //sides
     if (i + 1 <= n) cells.push_back({ i + 1, j });
     if (i - 1 >= 1) cells.push_back({ i - 1, j });
     if (j + 1 <= m) cells.push_back({ i, j + 1 });
     if (j - 1 >= 1) cells.push_back({ i, j - 1 });
-    // diagonls
-    if (i + 1 <= n && j + 1 <= m) cells.push_back({ i + 1, j + 1 });
-    if (i + 1 <= n && j - 1 >= 1) cells.push_back({ i + 1, j - 1 });
-    if (i - 1 >= 1 && j - 1 >= 1) cells.push_back({ i - 1, j - 1 });
-    if (i - 1 >= 1 && j + 1 <= m) cells.push_back({ i - 1, j + 1 });
 
     return cells;
 }
 
-void dfs(int i, int j, char parent = 'A' - 1) {
-    if (visited[i][j]) return;
-    if (grid[i][j] != parent + 1) return;
+void dfs(int i, int j) {
+    if (visited[i][j] || grid[i][j] == '#') return;
     visited[i][j] = true;
-    if (grid[i][j] - 'A' + 1 > longestPath) longestPath = grid[i][j] - 'A' + 1;
-    for (auto child : getCells(i, j)) {
-        dfs(child.first, child.second, grid[i][j]);
+    if (grid[i][j] == 'G') canEscape++;
+    if (grid[i][j] == 'B') {
+        nGood = -1;
+        return;
+    }
+
+    for (auto cell : getCells(i, j)) {
+        dfs(cell.first, cell.second);
+    }
+}
+
+
+void block(int i, int j) {
+    int x, y;
+    for (auto cell : getCells(i, j)) {
+        x = cell.first;
+        y = cell.second;
+
+        if (grid[x][y] == '.') grid[x][y] = '#';
     }
 }
 
 void solve() {
-    int caseNumber = 1;
     cin >> n >> m;
-    while (n != 0 && m != 0) {
-        longestPath = 0;
-        for (int i = 1; i <= n; i++) {
-            for (int j = 1; j <= m; j++) {
-                cin >> grid[i][j];
-                if (grid[i][j] == 'A') roots.push_back({ i, j });
-                visited[i][j] = false;
+    nGood = 0;
+    canEscape = 0;
+    for (int i = 1; i <= n; i++) {
+        for (int j = 1; j <= m; j++) {
+            cin >> grid[i][j];
+            (grid[i][j] == 'G' ? ++nGood : 0);
+            visited[i][j] = false;
+        }
+    }
+
+    if (nGood == 0) return void(cout << "Yes\n");
+    for (int i = 1; i <= n; i++) {
+        for (int j = 1; j <= m; j++) {
+            if (grid[i][j] == 'B') {
+                block(i, j);
             }
         }
-
-        for (auto root : roots) {
-            dfs(root.first, root.second);
-        }
-
-        cout << "Case " << caseNumber << ": " << longestPath << endl;
-        caseNumber++;
-        cin >> n >> m;
     }
+    dfs(n, m);
+    if (canEscape == nGood) {
+        cout << "Yes\n";
+    }
+    else cout << "No\n";
 }
 
 int main() {
@@ -74,7 +88,7 @@ int main() {
 
     int t = 1;
 
-    // cin >> t;
+    cin >> t;
     while (t--) {
         solve();
     }
