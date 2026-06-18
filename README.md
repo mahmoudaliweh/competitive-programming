@@ -5,7 +5,7 @@
 | :--------------------------------------------------------------------- | ------------------------------- | -------------- | ----------- |
 | [Link Cut Centroids](https://codeforces.com/problemset/problem/1406/C) |                                 | `dfs`          |             |
 | [Kefa and Park](https://codeforces.com/problemset/problem/580/C)       | [cf_580c](problems/cf_580c/)    | `dfs` - `easy` | `revised 0` |
-| [Solve The Maze](https://codeforces.com/problemset/problem/1365/D)     | [cf_1365d](/problems/cf_1365d/) | `dfs`          |             |
+| [Solve The Maze](https://codeforces.com/problemset/problem/1365/D)     | [cf_1365d](/problems/cf_1365d/) | `dfs`- `easy`  | `revised 0` |
 | [ABCPATH - ABC Path](https://www.spoj.com/problems/ABCPATH/en/)        |                                 | `dfs`          |             |
 | [Counting Rooms](https://cses.fi/problemset/task/1192)                 |                                 | `dfs`          |             |
 | [Building Teams](https://cses.fi/problemset/task/1668)                 |                                 | `dfs`          |             |
