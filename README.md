@@ -13,6 +13,6 @@ https://vjudge.net/contest/699211
 | [Counting Rooms](https://cses.fi/problemset/task/1192)                           | [cses_1192](/problems/cses_1192/)       | `dfs` - `easy`   | `revised 0` |
 | [Building Teams](https://cses.fi/problemset/task/1668)                           | [cses_1668](/problems/cses_1668/)       | `dfs` - `easy`   | `revised 0` |
 | [Round Trip](https://cses.fi/problemset/task/1669)                               | [cses_1669](/problems/cses_1669/)       | `dfs` - `easy`   | `revised 0` |
-| [Mr. Kitayuta's Colorful Graph](https://codeforces.com/problemset/problem/505/B) | [cf_505b](/problems/cf_505b/)           |                  |             |
-| [Course Schedule](https://cses.fi/problemset/task/1679)                          | [cses_1679](/problems/cses_1679/)       |                  |             |
+| [Mr. Kitayuta's Colorful Graph](https://codeforces.com/problemset/problem/505/B) | [cf_505b](/problems/cf_505b/)           | `dfs` - `easy`   | `revised 0` |
+| [Course Schedule](https://cses.fi/problemset/task/1679)                          | [cses_1679](/problems/cses_1679/)       | `dfs` - `easy`   | `revised 0` |
 
