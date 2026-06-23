@@ -1,0 +1,5 @@
+#### Solution:
+
+It took me some time to come up with the solution and it was accepted after some optimization to avoid time limit exceeding.
+
+Basically start from any node, and that node will say in day 1 I will be busy with this neighbor, day 2 with this other neighbor and so on.. So every node will have its own local day counter and for each different day it will be busy with one of its neighbors fixing the road. And for each node it will call, it will pass that day as a way of telling that node "Hey, you are busy with me during that day, so don't do some repairing with some other neighbor in that day" so that node will start the same counter and do the same with its neighbors except that it will avoid using the day that its parent passed. That's basically it, and each node stores this information on some day bucket.
