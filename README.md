@@ -1,7 +1,9 @@
 
 ## Current Sheet
 https://vjudge.net/contest/699211
-Solved all except: O - W - Y - Z
+Solved: all except  Y, Z
+https://vjudge.net/contest/702870#problem
+Solved: A - N
 ## Problems
 
 | Problem                                                                           | Solution                                                     | Tags             | Revised     |
@@ -20,11 +22,17 @@ Solved all except: O - W - Y - Z
 | [Round Trip II](https://cses.fi/problemset/task/1678/)                            | [cses_1678](/problems/cses_1678)                             | `dfs` - `easy`   | `revised 0` |
 | [White-Black Balanced Subtrees](https://codeforces.com/problemset/problem/1676/G) | [cf_1676g](/problems/cf_1676g/)                              | `dfs` - `easy`   | `revised 0` |
 | [Vertical Paths](https://codeforces.com/problemset/problem/1675/D)                | [cf_1675d](/problems/cf_1675d/)                              | `dfs` - `easy`   | `revised 0` |
-| [Vlad and Unfinished Business](https://codeforces.com/problemset/problem/1675/F)  | [cf_1675f](/problems/cf_1675f/)                              | `dfs` - `medium` |             |
+| [Vlad and Unfinished Business](https://codeforces.com/problemset/problem/1675/F)  | [cf_1675f](/problems/cf_1675f/)                              | `dfs` - `medium` | `revised 0` |
 | [Not Assigning](https://codeforces.com/problemset/problem/1627/C)                 | [cf_1627c](/problems/cf_1627c)                               | `dfs` - `easy`   | `revised 0` |
 | [MAKETREE - Hierarchy](https://www.spoj.com/problems/MAKETREE/en/)                | [spoj_maketree-hierarchy](/problems/spoj_maketree-hierarchy) | `dfs` - `medium` | `revised 0` |
 | [Apple Tree](https://codeforces.com/problemset/problem/1843/D)                    | [cf_1843d](/problems/cf_1843d)                               | `dfs` - `easy`   | `revised 0` |
 | [Road Improvement](https://codeforces.com/problemset/problem/638/C)               | [cf_638c](/problems/cf_638c)                                 | `dfs` - `medium` | `revised 0` |
 | [Edgy Trees](https://codeforces.com/problemset/problem/1139/C)                    | [cf_1139c](/problems/cf_1139c)                               | `dfs` - `easy`   | `revised 0` |
-|                                                                                   |                                                              |                  |             |
+| [Paint the Tree](https://codeforces.com/problemset/problem/1975/D)                | [cf_1975d](/problems/cf_1975d)                               | `dfs` - `medium` | `revised 0` |
+| [Count Paths](https://codeforces.com/problemset/problem/1923/E)                   | [cf_1923e](/problems/cf_1923e)                               |                  |             |
+| [Reset K Edges](https://codeforces.com/problemset/problem/1739/D)                 | [cf_1739d](/problems/cf_1739d)                               |                  |             |
+| [King's Path](https://codeforces.com/problemset/problem/242/C)                    | [cf_242c](/problems/cf_242c)                                 | `bfs` - `medium` | `revised 0` |
+| [Monsters](https://cses.fi/problemset/task/1194/)                                 | [cses_1194](/problems/cses_1194)                             | `bfs` - `medium` | `revised 0` |
+| [Fish Graph](https://codeforces.com/contest/1818/problem/D)                       | [cf_1818d](/problems/cf_1818d)                               | `bfs` - `medium` | `revised 0` |
+| [Three States](https://codeforces.com/problemset/problem/590/C)                   | [cf_590c](/problems/cf_590c)                                 | `bfs` - `medium` | `revised 0` |
 
