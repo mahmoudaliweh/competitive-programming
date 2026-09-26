@@ -10,7 +10,10 @@ https://vjudge.net/contest/709740#problem
 Solved: all except M, S
 
 https://vjudge.net/contest/713669#problem
-Solved: 
+Solved: A, B, C, D, E, G, H, I, J, K, L, M, N, O, P, Q, R, Z
+
+https://vjudge.net/contest/717425#problem
+Solved: A, B, C, D, E, G, K, M, J
 
 
 ## Problems
@@ -58,6 +61,23 @@ Solved:
 | [K.Quantum Stones](https://codeforces.com/gym/101801/attachments)                                                                                                                            | [cf_gym_101801k](/problems/cf_gym_101801k)                   | `dijkstra` - `medium`  | `revised 0` |
 | [ADATRIP - Ada and Trip](https://www.spoj.com/problems/ADATRIP/en/?__cf_chl_f_tk=yJLVewjqdQ2DHYwkgXrg2Vit2.HAhsH_icYgxYt5E6c-1783190676-1.0.1.1-CtpWGm.eQxsATCBUEg9VSq.9WNkS.Tt5RNVJVnnXvec) | [spoj_adatrip](/problems/spoj_adatrip)                       | `dijkstra` - `medium+` | `revised 0` |
 | [Jzzhu and Cities](https://codeforces.com/problemset/problem/449/B)                                                                                                                          | [cf_449b](/problems/cf_449b)                                 | `dijkstra` - `medium`  | `revised 0` |
+| [Minimizing Coins](https://cses.fi/problemset/task/1634/)                                                                                                                                    | [cses_1634](/problems/cses_1634/)                            | `dp` - `easy`          | `revised 0` |
+| [Dice Combinations](https://cses.fi/problemset/task/1633/)                                                                                                                                   | [cses_1633](/problems/cses_1633/)                            | `dp` - `easy`          | `revised 0` |
+| [Coin Combinations I](https://cses.fi/problemset/task/1635/)                                                                                                                                 | [cses_1635](/problems/cses_1635)                             | `dp` - `easy`          | `revised 0` |
+| [Grid Paths I](https://cses.fi/problemset/task/1638/)                                                                                                                                        | [cses_1638](/problems/cses_1638)                             | `dp` - `easy`          | `revised 0` |
+| [COINS - Bytelandian gold coins](https://www.spoj.com/problems/COINS/)                                                                                                                       | [spoj_COINS](/problems/spoj_COINS)                           | `dp` - `easy`          | `revised 0` |
+| [Edit Distance](https://cses.fi/problemset/task/1639/)                                                                                                                                       | [cses_1639](/problems/cses_1639)                             | `dp` - `easy`          | `revised 0` |
+| [Rectangle Cutting](https://cses.fi/problemset/task/1744/)                                                                                                                                   | [cses_1744](/problems/cses_1744)                             | `dp` - `easy`          | `revised 0` |
+| [MIXTURES - Mixtures](https://www.spoj.com/problems/MIXTURES/)                                                                                                                               | [spoj_MIXTURES](/problems/spoj_MIXTURES)                     | `dp` - `medium+`       | `revised 0` |
+| [Jellyfish and Mex](https://codeforces.com/problemset/problem/1875/D)                                                                                                                        | [cf_1875d](/problems/cf_1875d)                               | `dp` - `easy`          | `revised 0` |
+| [Don't Blame Me](https://codeforces.com/problemset/problem/1829/H)                                                                                                                           | [cf_1829h](/problems/cf_1829h)                               | `dp` - `medium`        | `revised 0` |
+| [Robot in a Hallway](https://codeforces.com/problemset/problem/1716/C)                                                                                                                       | [cf_1716c](/problems/cf_1716c)                               | `dp` - `medium++`      | `revised 0` |
+| [Boboniu and Bit Operations](https://codeforces.com/problemset/problem/1395/C)                                                                                                               | [cf_1395c](/problems/cf_1395c)                               | `dp` - `easy`          | `revised 0` |
+| [Sleeping Schedule](https://codeforces.com/problemset/problem/1324/E)                                                                                                                        | [cf_1324e](/problems/cf_1324e)                               | `dp` - `easy`          | `revised 0` |
+| [Make Them Equal](https://codeforces.com/problemset/problem/1633/D)                                                                                                                          | [cf_1633d](/problems/cf_1633d)                               | `dp` - `medium`        | `revised 0` |
+| [Money Sums](https://cses.fi/problemset/task/1745/)                                                                                                                                          | [cses_1745](/problems/cses_1745)                             | `dp` - `easy`          | `revised 0` |
+| [Two Sets II](https://cses.fi/problemset/task/1093/)                                                                                                                                         | [cses_1093](/problems/cses_1093)                             | `dp` - `easy`          | `revised 0` |
+|                                                                                                                                                                                              |                                                              |                        |             |
 |                                                                                                                                                                                              |                                                              |                        |             |
 |                                                                                                                                                                                              |                                                              |                        |             |
 |                                                                                                                                                                                              |                                                              |                        |             |

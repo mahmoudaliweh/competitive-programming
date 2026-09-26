@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "8eb78b322b420e92",
+        "id": "efb46c5d955c2b13",
         "type": "tabs",
         "children": [
           {
-            "id": "2ab0547ed4b03150",
+            "id": "5b48286c186ef109",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -41,7 +41,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "byCreatedTime",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -183,21 +185,25 @@
       "bases:Create new base": false
     }
   },
-  "active": "2ab0547ed4b03150",
+  "active": "5b48286c186ef109",
   "lastOpenFiles": [
-    "problems/cf_449b/sol.cpp",
-    "problems/cf_449b/main.cpp",
-    "problems/cf_449b",
+    "problems/cf_1620e/main.cpp",
+    "problems/cf_1620e",
     "problems/New folder",
-    "problems/spoj_adatrip/sol.cpp",
-    "problems/spoj_adatrip/main.cpp",
-    "problems/spoj_adatrip",
-    "problems/cf_gym_101801k/sol.cpp",
-    "problems/cf_gym_101801k/main.cpp",
-    "problems/cf_gym_101801k",
-    "problems/cf_gym_100030j/sol.cpp",
-    "problems/cf_1433g/README.md",
+    "problems/cf_25d/main.cpp",
+    "problems/cf_25d",
+    "problems/cf_1609d/main.cpp",
+    "problems/cf_1609d",
+    "problems/cses_1675/main.cpp",
+    "problems/cses_1675",
+    "problems/spoj_KOICOST/main.cpp",
+    "problems/spoj_KOICOST",
+    "problems/spoj_maketree-hierarchy/README.md",
     "README.md",
+    "problems/cf_1675f/README.md",
+    "problems/cses_1745.md",
+    "problems/cses_1639.md",
+    "problems/cf_1433g/README.md",
     "problems/cses_1202/README.md",
     "problems/cf_gym_101572/README.md",
     "problems/spoj_ESCJAILA/README.md",
@@ -206,20 +212,16 @@
     "problems/cf_877d/README.md",
     "problems/cf_369c/README.md",
     "problems/cf_1975d/README.md",
-    "problems/cf_1675f/README.md",
     "problems/cf_1722f.md",
     "problems/cf_1139c/README.md",
     "problems/cf_638c/README.md",
     "problems/cf_1365d/README.md",
     "problems/cf_1843d/README.MD",
     "problems/cf_1843d/README.md",
-    "problems/spoj_maketree-hierarchy/README.md",
     "problems/cf_1627c/README.md",
     "problems/cf_1406c/README.md",
     "problems/cf_1675d/README.md",
     "problems/cf_1675d.md",
-    "problems/cf_1676g/README.md",
-    "problems/cf_1676g.md",
-    "problems/cf_1818d/README.md"
+    "problems/cf_1676g/README.md"
   ]
 }
